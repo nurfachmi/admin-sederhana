@@ -33,7 +33,7 @@ Route::middleware(['verified', 'auth',])->group(function () {
     Route::view('/my/password', 'pages.user.password')->name('my-password');
     Route::view('/my/profile', 'pages.user.profile')->name('my-profile');
 
-    Route::resource('roles', RoleController::class)->only('index', 'create');
+    Route::resource('roles', RoleController::class)->only('index', 'create', 'store');
     Route::as('permissions.')->controller(RolePermissionController::class)->group(function () {
         Route::get('roles/{role}/permissions', 'index')->name('index');
         Route::post('roles/{role}/activate-permissions', 'store')->name('store');
