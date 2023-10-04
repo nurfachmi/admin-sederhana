@@ -9,7 +9,7 @@
                 <h1 class="h3 mb-0 text-primary font-weight-bold">{{ $title }}</h1>
                 @can('roles.create')
                     <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
-                        <a href="{{ route('roles.index') }}" type="button" class="btn btn-primary">New {{ str($title)->singular }}</a>
+                        <a href="{{ route('roles.create') }}" type="button" class="btn btn-primary">New {{ str($title)->singular }}</a>
                         <div class="btn-group" role="group">
                             <button id="btnGroup{{ str($title)->slug() }}" type="button"
                                 class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
