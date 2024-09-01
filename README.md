@@ -9,78 +9,78 @@
 
 ## Admin Sederhana
 
-Admin Sederhana adalah sebuah *boiler plate dashboard* yang dibangun di atas fondasi [Laravel](https://laravel.com) dan di-development bersama oleh kami, antara lain:
+Admin Sederhana adalah sebuah _boiler plate dashboard_ yang dibangun di atas fondasi [Laravel](https://laravel.com) dan di-development bersama oleh kami, antara lain:
 
-- [Indra](https://github.com/KingSit3)
-- [Jamal](https://github.com/jamalulinsan)
-- [Reynold](https://github.com/nekrophantom)
-- [Reza](https://github.com/AaEzha)
+-   [Indra](https://github.com/KingSit3)
+-   [Jamal](https://github.com/jamalulinsan)
+-   [Reynold](https://github.com/nekrophantom)
+-   [Reza](https://github.com/AaEzha)
 
 > Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
 ## Langkah-langkah
 
-- Klon repositori ini: `git clone https://github.com/nurfachmi/admin-sederhana`
-- Masuk ke direktori projek: `cd admin-sederhana`
-- Instal yang diperlukan: `composer install`
-- Buat file .env: `cp .env.example .env`
-- Sesuaikan nilai-nilai pada file .env
-- Buat key aplikasi: `php artisan key:generate`
-- Jalankan migrasi data: `php artisan migrate --seed`
-- Hiduplah! `php artisan serve`
+-   Klon repositori ini: `git clone https://github.com/nurfachmi/admin-sederhana`
+-   Masuk ke direktori projek: `cd admin-sederhana`
+-   Instal yang diperlukan: `composer install`
+-   Buat file .env: `cp .env.example .env`
+-   Sesuaikan nilai-nilai pada file .env
+-   Buat key aplikasi: `php artisan key:generate`
+-   Jalankan migrasi data: `php artisan migrate --seed`
+-   Hiduplah! `php artisan serve`
 
 ### Administrator
 
-- email: admin@nurfachmi.com
-- password: password
+-   email: admin@nurfachmi.com
+-   password: password
 
 ## Fitur-fitur
 
-- Login
-- ~~Register~~
-- ~~Forgot Password~~
-- ~~Reset Password~~
-- Dashboard sederhana
-- CRUD User
-- CRUD Role ([Laravel Permission](https://github.com/spatie/laravel-permission))
-- Module Management ([Laravel Modules](https://github.com/nWidart/laravel-modules))
-- Update profile
-- Update password
-- Logout
+-   Login
+-   ~~Register~~
+-   ~~Forgot Password~~
+-   ~~Reset Password~~
+-   Dashboard sederhana
+-   CRUD User
+-   CRUD Role ([Laravel Permission](https://github.com/spatie/laravel-permission))
+-   Module Management ([Laravel Modules](https://github.com/nWidart/laravel-modules))
+-   Update profile
+-   Update password
+-   Logout
 
 ## C S S
 
-CSS pada template ini menggunakan [Bootstrap CSS](https://getbootstrap.com), khususnya menggunakan tema dari [Bootswatch](https://bootswatch.com/). Anda dengan mudah berganti tema dengan me-*replace* file **bootstrap.min.css** yang terdapat pada folder **public/css**.
+CSS pada template ini menggunakan [Bootstrap CSS](https://getbootstrap.com), khususnya menggunakan tema dari [Bootswatch](https://bootswatch.com/). Anda dengan mudah berganti tema dengan me-_replace_ file **bootstrap.min.css** yang terdapat pada folder **public/css**.
 
 ## Tangkapan Layar
 
 #### Login
 
-![Dashboard](https://nurfachmi.com/img/nurfachmi/Login-admin.test.png)
+![Dashboard](/public/images/login.png)
 
 #### Dashboard
 
-![Dashboard](https://nurfachmi.com/img/nurfachmi/home-admin.test.png)
+![Dashboard](/public/images/dashboard.png)
 
 #### Users
 
-![Dashboard](https://nurfachmi.com/img/nurfachmi/users-admin.test.png)
+![Dashboard](/public/images/users.png)
 
 #### CRUD User
 
-![Dashboard](https://nurfachmi.com/img/nurfachmi/newUser-admin.test.png)
+![Dashboard](/public/images/crud-user.png)
 
 #### Roles
 
-![Dashboard](https://nurfachmi.com/img/nurfachmi/roles-admin.test.png)
+![Dashboard](/public/images/roles.png)
 
 #### CRUD Role
 
-![Dashboard](https://nurfachmi.com/img/nurfachmi/permissionsForModerator-admin.test.png)
+![Dashboard](/public/images/crud-roles.png)
 
 ## Kontribusi
 
-Kontribusi Anda sangat diperlukan untuk melengkapi *boilerplate* admin sederhana ini. Silahkan *fork*, kemudian buat *Pull Request* untuk setiap fitur atau perbaikan yang dibuat. Kita akan selalu menerima saran dan kritik yang membangun agar aplikasi ini lebih baik kembali.
+Kontribusi Anda sangat diperlukan untuk melengkapi _boilerplate_ admin sederhana ini. Silahkan _fork_, kemudian buat _Pull Request_ untuk setiap fitur atau perbaikan yang dibuat. Kita akan selalu menerima saran dan kritik yang membangun agar aplikasi ini lebih baik kembali.
 
 ## License
 

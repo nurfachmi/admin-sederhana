@@ -77,7 +77,7 @@
 
     <footer class="footer mt-3 py-3">
         <div class="container text-center">
-            <span class="text-muted">{{ config('app.name') }} &copy; 2023</span>
+            <span class="text-muted">{{ config('app.name') }} &copy; 2023-{{ date('Y') }}</span>
         </div>
     </footer>
 
